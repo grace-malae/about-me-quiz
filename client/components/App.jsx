@@ -11,7 +11,7 @@ function App (props) {
   return (
     <>
       <div className='app'>
-        <h1>Fullstack Boilerplate - with Tails!</h1>
+        <h1>About Me Quiz</h1>
         <ul>
           {props.tails.map(tail => (
             <li key={tail}>{tail}</li>
